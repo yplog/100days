@@ -1,27 +1,18 @@
 ### 100 days of algorithms
 
-This repository contains notebooks with live code to accompany [100 days of algorithms](https://medium.com/100-days-of-algorithms) challenge.
+Bu depo, [100 days of algorithms](https://medium.com/100-days-of-algorithms) çalışma notlarımı içerir. Orjinal deponun [coells/100days](https://github.com/coells/100days) çatalıdır.
 
-I set the challenge for myself to implement algorithm by algorithm, day by day, until the number reaches **100**.
+İlginizi çektiyse [yazı dizisine giriş](https://medium.com/100-days-of-algorithms/100-days-of-algorithms-challenge-41996f7e1ec8) ve [tüm yazılar](https://medium.com/100-days-of-algorithms/latest) ulaşabilirsiniz.
 
-If you are interested, here's the [intro to the series](https://medium.com/100-days-of-algorithms/100-days-of-algorithms-challenge-41996f7e1ec8) and [all the articles](https://medium.com/100-days-of-algorithms/latest) sorted by date from the latest.
 
-The challenge was quite fun and rough, as well. Do not expect the implementations to be the best, nor fastest, nor nicest, nor bug-free. Do expect to see code written in haste. A code that contains the same amount of enthusiasm and love to algorithms as many it contains bugs.
+#### Kurulum
 
-Feel free to (re)use my code in any way you wish, but bare in mind that the source code is provided "as-is". It is on your own risk and you are solely responsible for whatever happens then.
+* Son versiyonunu indirin ve kurun [Anaconda](https://www.continuum.io/downloads) veya `pip install jupyter` ve `pip install bokeh`
+* Depoyu klonlayın: `git clone https://github.com/yplog/100days.git`
+* Terminali açın ve Jupyter notebook'u çalıştırın: `jupyter notebook`
+* Tarayıcınızdan [localhost:8888](http://localhost:8888/tree) adresine gidin.
 
-#### local machine
+#### Notlar
 
-* download and install the latest version of [Anaconda](https://www.continuum.io/downloads) distribution
-* clone the repo: `git clone https://github.com/coells/100days.git`
-* open terminal and run Jupyter notebook: `jupyter notebook`
-* open [localhost:8888](http://localhost:8888/tree) in your browser
+* Kodlar geliştirilirken `Python 3.6` ve `Anaconda 4.3.1` kullanıldı.
 
-#### notes
-
-* the codebase was developed using `Python 3.6` and `Anaconda 4.3.1`
-* notebooks containing [Bokeh](http://bokeh.pydata.org/en/latest/) plots are not directly supported by Github; you better clone the repo a run notebooks locally
-
-#### alternate repository
-
-[Microsoft Azure Notebooks](https://notebooks.azure.com/coells/libraries/100days) with `Python 3.5` support
